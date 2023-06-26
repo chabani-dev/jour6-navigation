@@ -1,0 +1,3 @@
+compatibilité avec expo 
+npm i -g expo 
+expo install react-native-screens react-native-safe-area-context

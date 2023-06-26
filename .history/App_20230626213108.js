@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
@@ -77,7 +77,7 @@ export default function App() {
               tabBarIcon: function ({ color, size }) {
                 return (
                   <MaterialCommunityIcons
-                    name={"article"}
+                    name={"exit-run"}
                     size={size}
                     color={color}
                   />
